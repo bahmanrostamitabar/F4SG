@@ -389,7 +389,7 @@ button:focus,
  * Section Wrapper
  *---------------------------*/
 .section-wrapper {
-    padding : 100px 0;
+    padding : 20px 0;
     }
 
 
@@ -397,7 +397,7 @@ button:focus,
  * Section Title
  *---------------------------*/
 .section-title {
-    margin-bottom : 60px;
+    margin-bottom : 20px;
     text-align    : center;
     }
 
@@ -416,6 +416,7 @@ button:focus,
 .about-event .lead {
     font-size   : 19px;
     line-height : 1.7em;
+    text-align  : justify;
     }
 
 .about-event address {
