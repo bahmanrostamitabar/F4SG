@@ -50,9 +50,12 @@ h3 {
     }
 
 h4 {
-    font-size   : 18px;
-    line-height : 1.5em;
-    font-weight : 300;
+    font-size   : 20px;
+    line-height : 1.7em;
+    font-weight : bold;
+    font-family: "Bookman", "Times New Roman", Times, serif;
+    text-transform : uppercase;
+    color: #0e1555;
     }
 
 h5 {
@@ -101,12 +104,19 @@ p.lead {
     line-height : 1.7em;
     }
 
+
 ul {
     margin     : 0;
     padding    : 0;
     list-style : none;
     }
 
+ul.hotel {
+    margin     : 0 0 10px 40px;
+    padding    : 0;
+    list-style : disc;    
+    }
+    
 /*Button Style*/
 .btn {
     padding        : 10px 30px;
@@ -538,6 +548,41 @@ button:focus,
     display     : block;
     line-height : 1;
     }
+    
+/* --------------------------
+ * Program
+ *---------------------------*/    
+.card {
+  margin  : 0 0 20px 0;  
+}
+
+.card-heading {
+/*  background-color : #AEBD38; */
+/*  border-color     : white;   */
+/*  color            : white;   */
+}
+
+.card-title {
+  text-transform : uppercase;
+  font-weight    : bold;
+  padding : 0 0 0 0;
+  margin  : 0 0 0 0;  
+}
+
+.card-author {
+  text-transform : capitalize;
+  font-style     : italic;
+  padding : 0 0 0 0;
+  margin  : 0 0 0 10px;  
+}
+
+
+.card-body {
+  border-left: 6px solid #AEBD38;
+  padding-left:  10px;
+  margin: 0 0 0 10px;
+}
+
 
 /* --------------------------
  * Pricing Table
@@ -611,8 +656,15 @@ button:focus,
     position : relative;
     }
 
+/* --------------------------
+ * Organizers and Sponsors
+ *---------------------------*/
 
-
+.organizers{
+  border-collapse:separate; 
+  border-spacing: 0 10px;    /* add vertical space between rows */
+  margin: auto;  /* center align */
+}
 
 /* --------------------------------------------
  *   Footer
