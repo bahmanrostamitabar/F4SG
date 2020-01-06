@@ -518,6 +518,16 @@ button:focus,
     color : #333;
     }
 
+
+.team hr {
+  width: 90%;
+  height: 2px;
+/*  background-color: blue; */
+  margin-top: 2px;
+  margin-bottom: 1px;
+}
+
+
 /* --------------------------
  * Agenda
  *---------------------------*/
