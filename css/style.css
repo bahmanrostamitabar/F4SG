@@ -337,7 +337,7 @@ button:focus,
     background-size       : cover;
     padding               : 0;
     margin                : 0;
-    height                : 100vh;
+    height                : 120vh;
     min-height            : 700px;
     vertical-align        : middle;
     position              : relative;
