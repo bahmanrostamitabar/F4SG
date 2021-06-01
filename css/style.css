@@ -4,7 +4,7 @@
 }
 
 
-/* 
+/*
 Colors:
 navbar background when scrolled down: #66829E #90AFC5
 navbar active: #AEBD38 #763626 #fd367e;
@@ -114,9 +114,9 @@ ul {
 ul.hotel {
     margin     : 0 0 10px 40px;
     padding    : 0;
-    list-style : disc;    
+    list-style : disc;
     }
-    
+
 /*Button Style*/
 .btn {
     padding        : 10px 30px;
@@ -349,9 +349,9 @@ button:focus,
 
 .jumbotron .content {
     color             : #ffffff;
-    text-shadow       : 1px 1px 5px #000000; 
+    text-shadow       : 1px 1px 5px #000000;
     text-align        : center;
-    font-weight       : bold; 
+    font-weight       : bold;
     position          : absolute;
     top               : 50%;
     left              : 0;
@@ -362,16 +362,16 @@ button:focus,
     padding           : 0 10%;
     -webkit-transform : translateY(-50%);
     -moz-transform    : translateY(-50%);
-    -o-transform      : translateY(-50%);    
+    -o-transform      : translateY(-50%);
     -ms-transform     : translateY(-50%);
-    transform         : translateY(-50%);    
+    transform         : translateY(-50%);
     }
 
 
 .jumbotron .content h1 {
     text-transform  : uppercase
     }
-    
+
 .jumbotron .content .event-details {
     font-size     : 28px;
     margin-bottom : 0px;
@@ -380,15 +380,15 @@ button:focus,
 
 /* Change fonts when browser window is < 600px */
 @media (max-width : 600px) {
-  
+
     .jumbotron .content {
         min-height : auto;
         }
-    
+
     .jumbotron .content h1 {
         font-size : 24px;
         }
-        
+
     .jumbotron .content .event-details {
         font-size : 20px;
         }
@@ -471,12 +471,12 @@ button:focus,
 .team .thumbnail img {
     width : 200px;
     height : 250px;
-    background-size: cover;   
+    background-size: cover;
     }
 
 .team .thumbnail .caption {
     width : 200px;
-    background-size: cover;   
+    background-size: cover;
     text-align: center;
     }
 
@@ -558,12 +558,12 @@ button:focus,
     display     : block;
     line-height : 1;
     }
-    
+
 /* --------------------------
  * Program
- *---------------------------*/    
+ *---------------------------*/
 .card {
-  margin  : 0 0 20px 0;  
+  margin  : 0 0 20px 0;
 }
 
 .card-heading {
@@ -576,14 +576,14 @@ button:focus,
   text-transform : uppercase;
   font-weight    : bold;
   padding : 0 0 0 0;
-  margin  : 0 0 0 0;  
+  margin  : 0 0 0 0;
 }
 
 .card-author {
   text-transform : capitalize;
   font-style     : italic;
   padding : 0 0 0 0;
-  margin  : 0 0 0 10px;  
+  margin  : 0 0 0 10px;
 }
 
 
@@ -593,13 +593,61 @@ button:focus,
   margin: 0 0 0 10px;
 }
 
+.ProgramDayBreak {
+    position: relative;
+    background-color: #4c5d6d;
+    color: white;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    padding: 5px;
+    height:50px;
+    font-size: 1.6em;
+    text-align:center;
+}
+
+.ProgramDayBreak span {
+    margin: 0;position:absolute;
+    top: 50%;
+    transform: translate(-50%, -50%)
+    }
+
+
+.session-header {
+    /* height: 100px;  */
+    font-family : 'Roboto', sans-serif;
+    background-color: #AEBD38;
+    color: white;
+    padding: 10px;
+    font-size: 1.20em;
+    font-weight: 400;
+}
+
+.session-chair {
+    font-style: italic;
+}
+
+.session-title {
+}
+
+.session-time {
+    text-align: center;
+}
+
+
+@media only screen and (max-width:767px) {
+    div.ProgramDayBreak {
+        font-size:1.2em;
+        }
+    }
+
 /* --------------------------
  * Venue
- *---------------------------*/   
+ *---------------------------*/
 .venue2{
   margin : 0 0 15px 10px;
-} 
- 
+}
+
 
 /* --------------------------
  * Pricing Table
@@ -678,7 +726,7 @@ button:focus,
  *---------------------------*/
 
 .organizers{
-  border-collapse:separate; 
+  border-collapse:separate;
   border-spacing: 0 10px;    /* add vertical space between rows */
   margin: auto;  /* center align */
 }
