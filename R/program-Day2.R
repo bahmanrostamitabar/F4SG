@@ -8,18 +8,18 @@ library(htmltools)
 #-------------------------------------------------------#
 
 Bahman = list(
-  author = "Bahman Rostami-Tabar, Cardiff University",
+  author = "Bahman Rostami-Tabar (Cardiff University)",
   title = "Information from the Organisers",
   abstract = ""
 )
 
 welcome_2 = list(
   title = "Welcome", 
-  chair = "Chair: Bahman Rostami-Tabar",
-  time = "11:50 - 12:00 (UTC)",
+  chair = "Chair: Bahman Rostami-Tabar (Cardiff University)",
+  time = "10:50 - 11:00 (UTC)",
   date = "Fri, June 25",
   talks = list(
-    "11:50 (UTC)" = Bahman
+    "10:50 (UTC)" = Bahman
   )
 )
 
@@ -53,10 +53,10 @@ Albert = list(
 keynote_4 = list(
   title = "Keynote #4: Predictive and Prescriptive Analytics for Public Safety", 
   chair = "Chair: TBD",
-  time = "12:00 - 12:35	(UTC)",
+  time = "11:00 - 11:35	(UTC)",
   date = "Fri, June 25",
   talks = list(
-    "12:00 (UTC)" = Albert
+    "11:00 (UTC)" = Albert
   )  
 )
 
@@ -68,7 +68,7 @@ html_session(keynote_4, id="key4")
 #-------------------------------------------------------#
 
 Odubela = list(
-  author = "Kehinde Odubela, Steven Jiang, and Lauren Davis",
+  author = "Kehinde Odubela, Steven Jiang, Lauren Davis (North Carolina A&T State University)",
   title = "Estimating True Demand at Hunger Relief Organizations with Predictive Modeling",
   abstract = 'Hunger relief organizations are important to provide safe and nutritious 
   food to people who experience food insecurity. Predicting food demand is a challenge 
@@ -87,34 +87,34 @@ Odubela = list(
 )
 
 Lentz = list(
-  author = 'Erin Lentz, University of Texas',
+  author = 'Erin Lentz (University of Texas)',
   title = 'TBD',
   abstract = ''
 )
 
 Rogerio = list(
-  author = '',
-  title = 'Regional Inequality and its Determinants - Forecasting from Outer Space',
+  author = 'Rogerio (United Nations World Food Programme (WFP))',
+  title = 'TBD',
   abstract = ''
 )
 
 Gabriela = list(
-  author = '',
-  title = 'Backcasting for Future Generation',
+  author = 'Gabriela (World Bank, Global Facility for Disaster Reduction and Recovery (GFDRR))',
+  title = 'TBD',
   abstract = ''
 ) 
 
 
 session_5 = list(
-  title = "Session #5: Forecast-based financing for food security", 
+  title = "Session #5: Predictive modelling for food security", 
   chair = "Chair: TBD",
-  time = "12:35 - 14:15 (UTC)",
+  time = "11:35 - 13:15 (UTC)",
   date = "Fri, June 25",
   talks = list(
-    "12:35 (UTC)" = Gabriela,
-    "13:00 (UTC)" = Rogerio,
-    "13:25 (UTC)" = Lentz,
-    "13:50 (UTC)" = Odubela
+    "11:35 (UTC)" = Gabriela,
+    "12:00 (UTC)" = Rogerio,
+    "12:25 (UTC)" = Lentz,
+    "12:50 (UTC)" = Odubela
   )
 )
 
@@ -127,7 +127,7 @@ html_session(session_5, id="session5")
 break_2 = list(
   title = "Break", 
   # chair = "",
-  time = "14:15 - 14:25 (UTC)",
+  time = "13:15 - 13:25 (UTC)",
   date = "Fri, June 25"
   #talks = list()
 )
@@ -145,35 +145,73 @@ Litsiou1 = list(
   Yiannis Polychronakis (Salford University, UK), Stelios Sapountzis (Salford University, UK)',
   title = 'Forecasting the success of Megaprojects with Structured Analogies, 
   Delphi and Interaction Groups: the role of experience and expertise',
-  abstract = ''
+  abstract = 'Forecasting the success of megaprojects is a very difficult and 
+  important task because of the complexity of such projects, 
+  as well as the large capital investment that is required for the completion of 
+  these projects. One could argue that forecasting is not needed in 
+  this context: the master Gantt chart of the tasks with assigned 
+  person-hours plus the respective Bill of Materials should suffice 
+  for an accurate estimation of the duration and cost of a project. If 
+  that was the case then every project would finish on time and on 
+  budget – but this is far from true as the numerous examples 
+  attest: HS2, Channel Tunnel, major IT public projects in NHS, 
+  to name a few. In this research, we employ judgmental forecasting methods 
+  to predict the success of megaprojects in a controlled experiment  
+  where the participants forecast for one megaproject (‘a major recreational facility in the very city centre of a major cosmopolis’) with Unaided Judgment (UJ), 
+  Structured Analogies (SA), Delphi(D) and Interaction Groups (IG) with IG showing 
+  the best results since IG>D>SA>SA. We see separately the success in terms of 
+  excesses in the budget and the duration of the project. Furthermore, 
+  the participants forecast the extent to which the socio-economic benefits
+  are realised. We do analyse three different stakeholder perspectives: that of the a) 
+  project manager, b) funder(s), and c) the public. We do control for two levels of 
+  expertise – novices, and semi-experts.'
 )
 
-Litsiou2 = list(
-  author = 'Konstantia Litsiou (Manchester Metropolitan University, UK),
+Kostas = list(
+  author = 'Konstantinos Nikolopoulos (Durham University, UK),
+  Konstantia Litsiou (Manchester Metropolitan University, UK),
   Yiannis Polychronakis (Salford University, UK), 
   Stelios Sapountzis (Salford University, UK),
-  Dilek Onkal (Newcastle Business School, Northumbria University, UK), 
-  Konstantinos Nikolopoulos (Durham University, UK)',
+  Dilek Onkal (Newcastle Business School, Northumbria University, UK))',
   title = 'Forecasting the success of Megaprojects with Scenarios',
-  abstract = ''
+  abstract = 'Forecasting the success of megaprojects is a very difficult and important task 
+  because of the complexity of such projects, as well as the large capital 
+  investment that is required for the completion of these projects: give the size of 
+  these projects there are clear and immediate social good implications for example HS2, 
+  Channel Tunnel, NHS restructuring, COVID-19 Vaccination to name a few. In this 
+  research, we employ a novel judgmental forecasting approach via employing 
+  scenarios in order to primarily get insight and secondary predict the success 
+  of megaprojects: through a controlled experiment where the participants provide 
+  three scenarios (optimistic, pessimistic, and baseline) for one 
+  megaproject (‘space exploration’) with promising results.'
 )
 
 Alroomi = list(
   author = 'Azzam J. M. A. H. Alroomi, Arab Open University',
   title = 'Covid-19 pandemic, projections, and megaprojects: Evidence from the gcc countries',
-  abstract = ''
+  abstract = 'Covid-19 is it the most impactful pandemic that has happened in 
+  history. Many would say yes, regardless of how you would answer that question
+  the evidence clearly shows great impact on the GCC megaprojects. In some cases, 
+  the greatest impact, this paper looks at the historical evidence before, during 
+  and after the covid-19 crisis, we show that the megaprojects in the GCC region is 
+  a main driver for economic growth. How the countries went into emergency status 
+  and were forced to change the status quo. Furthermore, we look at the impact of 
+  the pandemic in the economic landscape. The region depends heavily on oil 
+  production and in the past decade the GCC countries are systematically moving 
+  away from the complete dependence on oil, where the plan for megaprojects was 
+  implanted example of these megaprojects are research in this paper.'
 )
 
 
 session_6 = list(
   title = "Session #6: Mega Projects", 
   chair = "Chair: Konstantinos Nikolopoulos",
-  time = "14:25 - 15:40 (UTC)",
+  time = "13:25 - 14:40 (UTC)",
   date = "Fri, June 25",
   talks = list(
-    "14:25 (UTC)" = Litsiou1,
-    "14:50 (UTC)" = Litsiou2,
-    "15:15 (UTC)" = Alroomi
+    "13:25 (UTC)" = Litsiou1,
+    "13:50 (UTC)" = Kostas,
+    "14:15 (UTC)" = Alroomi
   )
 )
 
@@ -186,7 +224,7 @@ html_session(session_6, id="session6")
 lunch_2 = list(
   title = "Lunch", 
   # chair = "",
-  time = "15:40 - 16:20 (UTC)",
+  time = "14:40 - 15:20 (UTC)",
   date = "Fri, June 25"
   #talks = list()
 )
@@ -199,7 +237,7 @@ print(htmltools::br())
 # Keynote 5
 #-------------------------------------------------------#
 Makridakis = list(
-  author = "Spyros Makridakis, University of Nicosia",
+  author = "Spyros Makridakis (University of Nicosia)",
   title = "Uncertainty in Medicine and in Medical Diagnosis",
   abstract = 'This paper discusses uncertainty in general and more specifically 
   in medicine while focusing on that affecting medical diagnoses, the major source 
@@ -219,10 +257,10 @@ Makridakis = list(
 keynote_5 = list(
   title = "Keynote #5: Uncertainty in Medicine and in Medical Diagnosis", 
   chair = "Chair: TBD",
-  time = "16:20 - 16:55	(UTC)",
+  time = "15:20 - 15:55	(UTC)",
   date = "Fri, June 25",
   talks = list(
-    "16:20 (UTC)" = Makridakis
+    "15:20 (UTC)" = Makridakis
   )  
 )
 
@@ -233,33 +271,57 @@ html_session(keynote_5, id="key5")
 # Session 7
 #-------------------------------------------------------#
 Lowe = list(
-  author = 'Rachel Lowe, London School of Hygiene and Tropical Medicine',
+  author = 'Rachel Lowe (London School of Hygiene and Tropical Medicine)',
   title = 'Dengue early warning systems in Vietnam, Barbados and Brazil',
   abstract = ''
 )
 
 Oidtman = list(
-  author = 'Rachel Oidtman, University of Chicago',
+  author = 'Rachel Oidtman (University of Chicago)',
   title = 'Trade-offs between individual and ensemble forecasts of an emerging infectious disease',
-  abstract = ''
+  abstract = 'When new pathogens emerge, numerous questions arise about 
+  their future spread, some of which can be addressed with probabilistic 
+  forecasts. The many uncertainties about the epidemiology of emerging 
+  pathogens can make it difficult to choose among model structures and 
+  assumptions, however. To assess the potential for uncertainties about 
+  emerging pathogens to affect forecasts of their spread, we evaluated 
+  the performance of a suite of 16 forecasting models in the context of 
+  the 2015-2016 Zika epidemic in Colombia. Each model featured a different 
+  combination of assumptions about the role of human mobility in driving 
+  transmission, spatiotemporal variation in transmission potential, and 
+  the number of times the virus was introduced. All models used the same 
+  core transmission model and the same iterative data assimilation algorithm 
+  to generate forecasts. By assessing forecast performance through
+  time using logarithmic scoring with ensemble weighting, we found 
+  that which model assumptions had the most ensemble weight changed 
+  through time. In particular, spatially coupled models had higher 
+  ensemble weights in the early and late phases of the epidemic, 
+  whereas non-spatial models had higher ensemble weights at the peak 
+  of the epidemic. We compared forecast performance of the equally-weighted 
+  ensemble model to each individual model and identified a trade-off whereby
+  certain individual models outperformed the ensemble model early in the 
+  epidemic, but the ensemble model outperformed all individual models on 
+  average. On balance, our results suggest that suites of models that 
+  span uncertainty across alternative assumptions are necessary to 
+  obtain robust forecasts in the context of emerging infectious diseases.'
 )
 
 Wang = list(
-  author = 'Lijing Wang, University of Virginia',
+  author = 'Lijing Wang (University of Virginia)',
   title = 'Artificial Intelligence Solutions for Reliable Epidemic Forecasting',
   abstract = ''
 )
 
 
 session_7 = list(
-  title = "Session #7: TBD", 
-  chair = "Chair: Wessam Abouarghoub",
-  time = "16:55 - 18:10 (UTC)",
+  title = "Session #7: Forecasting infectious diseases: Zika, dengue and COVID-19", 
+  chair = "Chair: Johannes Bracher",
+  time = "15:55 - 17:10 (UTC)",
   date = "Fri, June 25",
   talks = list(
-    "16:55 (UTC)" = Lowe,
-    "17:20 (UTC)" = Oidtman,
-    "17:45 (UTC)" = Wang
+    "15:55 (UTC)" = Lowe,
+    "16:20 (UTC)" = Oidtman,
+    "16:45 (UTC)" = Wang
   )
 )
 
@@ -275,7 +337,7 @@ html_session(session_7, id="session7")
 close_2 = list(
   title = "Closing", 
   chair = "Chair: Bahman Rostami-Tabar",
-  time = "18:10 - 18:30 (UTC)",
+  time = "17:10 - 17:30 (UTC)",
   date = "Fri, June 25"
   #talks = list( )
 )

@@ -13,19 +13,19 @@ arrival = list(
 )
 
 Bahman = list(
-  author = "Bahman Rostami-Tabar, Cardiff University",
+  author = "Bahman Rostami-Tabar (Cardiff University)",
   title = "Information from the Organisers",
   abstract = ""
 )
 
 welcome_1 = list(
   title = "Welcome", 
-  chair = "Chair: Bahman Rostami-Tabar",
-  time = "11:30 - 12:05 (UTC)",
+  chair = "Chair: Bahman Rostami-Tabar (Cardiff University)",
+  time = "10:30 - 11:05 (UTC)",
   date = "Thu, June 24",
   talks = list(
-    "11:30 (UTC)" = arrival, 
-    "12:00 (UTC)" = Bahman
+    "10:30 (UTC)" = arrival, 
+    "11:00 (UTC)" = Bahman
   )
 )
 
@@ -35,7 +35,7 @@ html_session(welcome_1, id="welcome_1")
 # Keynote 1
 #-------------------------------------------------------#
 Reich = list(
-  author = "Nicholas Reich, University of Massachusetts-Amherst",
+  author = "Nicholas Reich (University of Massachusetts-Amherst)",
   title = "Building the COVID-19 Forecast Hub, a collaborative network to improve
 infectious disease forecasting",
   abstract = htmltools::HTML('The US COVID-19 Forecast Hub is a collaborative effort of infectious
@@ -54,11 +54,11 @@ Forecast Hub can be found at <a href="https://covid19forecasthub.org/">https://c
 
 keynote_1 = list(
   title = "Keynote #1: Building the COVID-19 Forecast Hub", 
-  chair = "Chair: TBD",
-  time = "12:05 - 12:40 (UTC)",
+  chair = "Chair: Bahman Rostami-Tabar",
+  time = "11:05 - 11:40 (UTC)",
   date = "Thu, June 24",
   talks = list(
-    "12:05 (UTC)" = Reich
+    "11:05 (UTC)" = Reich
   )
 )
 
@@ -67,33 +67,65 @@ html_session(keynote_1, id="key1")
 #-------------------------------------------------------#
 # Session 1 
 #-------------------------------------------------------#
+
+Bosse = list(
+  author = "Nikos Bosse (London School of Hygiene and Tropical Medicine)",
+  title = " Crowd predictions vs. model-based forecasts of COVID-19",
+  abstract = "Model-based forecasts have played a large role in 
+  informing public policy throughout the COVID-19 pandemic. 
+  These models, however, have been tuned and tweaked by humans to 
+  varying degrees and the resulting forecasts therefore necessarily 
+  represent a mix of human opinion and epidemiological modeling. 
+  An interesting question arises: how does expert opinion alone 
+  compare against both models without any expert intervention and 
+  against forecasts that combine expert opinion with epidemiological 
+  modeling? To answer this question, we submitted crowd forecasts from 
+  experts and non-experts (most participants came from within our working 
+  group) to the German and Polish as well as the European Forecast Hub, 
+  directly comparing human predictions to a large set of model-derived 
+  forecasts. This talk gives an overview of the crowdforecastr project 
+  and presents our results."
+)
+
 Adiga = list(
-  author = "Aniruddha Adiga, University of Virginia",
+  author = "Aniruddha Adiga (University of Virginia)",
   title = "TBD: Ensemble Forecasts of COVID-19",
   abstract = ""
 )
 
-Bosse = list(
-  author = "Nikos Bosse, London School of Hygiene and Tropical Medicine",
-  title = "TBD: Expert Forecasting of COVID-19",
-  abstract = ""
-)
-
 Bracher = list(
-  author = "Johannes Bracher, Karlsruhe Institute of Technology, Heidelberg Institute of Theoretical Studies",
-  title = "Collaborative Forecasting of COVID-19 cases and deaths in Germany and Poland",
-  abstract = ""
+  author = "Johannes Bracher (Karlsruhe Institute of Technology, Heidelberg Institute of Theoretical Studies)",
+  title = "Collaborative forecasting of COVID-19 cases and deaths in Germany and Poland",
+  abstract = "There has been a surge in epidemic short-term forecasting 
+  during the COVID-19 pandemic, with a large number of forecasting 
+  approaches published and run in real time. This raises the need for 
+  systematic comparison and evaluation of methods, both as a prerequisite 
+  for model improvement and to assess how reliably forecasts can inform 
+  public health decision making. Moreover, the large number of available 
+  models opens new avenues for ensemble forecasting, as commonly used in 
+  other fields like meteorology and economics. I will present results 
+  from a pre-registered forecast evaluation study conducted in Germany 
+  and Poland from October 2020 to April 2021. It is based on the German 
+  and Polish COVID-19 Forecast Hub which, run in close collaboration with
+  the US COVID-19 Forecast Hub, assembles forecasts of confirmed cases 
+  and deaths one through four weeks ahead. During the study period, 
+  fifteen independent research teams contributed forecasts. 
+  We found pronounced heterogeneity between submitted forecasts, 
+  both in terms of central tendency and degree of uncertainty,
+  and considerable difficulty to anticipate inflection points. 
+  Ensemble forecasts showed good relative performance and were notably 
+  better calibrated than individual models."
 )
 
 session_1 = list(
-  title = "Session #1: COVID-19 Forecasting", 
-  chair = "Chair: Johannes Bracher",
-  time = "12:40 - 13:55 (UTC)",
+  title = "Session #1: Real-time forecasting of the COVID-19 pandemic", 
+  chair = "Chair: Johannes Bracher (Karlsruhe Institute of Technology, Heidelberg Institute of Theoretical Studies)",
+  time = "11:40 - 12:55 (UTC)",
   date = "Thu, June 24",
   talks = list(
-    "12:40 (UTC)" = Adiga, 
-    "13:05 (UTC)" = Bosse, 
-    "13:30 (UTC)" = Bracher
+    "11:40 (UTC)" = Adiga, 
+    "12:05 (UTC)" = Bracher, 
+    "12:30 (UTC)" = Bosse
   )
 )
 
@@ -105,7 +137,7 @@ html_session(session_1, id="session1")
 break_1 = list(
   title = "Break", 
   # chair = "",
-  time = "13:55 - 14:05 (UTC)",
+  time = "12:55 - 13:05 (UTC)",
   date = "Thu, June 24"
   #talks = list()
 )
@@ -118,7 +150,7 @@ print(htmltools::br())
 # Keynote 2
 #-------------------------------------------------------#
 LMilano = list(
-  author = "Leonardo Milano, United Nations Office for the Coordination of Humanitarian Affairs (OCHA)",
+  author = "Leonardo Milano (United Nations Office for the Coordination of Humanitarian Affairs (OCHA))",
   title = "Anticipating humanitarian crises to respond earlier, saving and protecting more lives",
   abstract = 'Although predictive analytics is not a new field, its application in humanitarian response has only just begun. The increasing availability of data from a variety of sources, together with advancements in statistics and machine learning, is generating a growing interest in using models to gain insight and trigger anticipatory action.
 Using data science to anticipate humanitarian crises represents a great opportunity for organizations to respond earlier, saving and protecting more lives than ever before. 
@@ -127,11 +159,11 @@ The Centre for Humanitarian Data of the United Nations Office for the Coordinati
 
 keynote_2 = list(
   title = "Keynote #2: Anticipating Humanitarian Crises", 
-  chair = "Chair: TBD",
-  time = "14:05 - 14:40 (UTC)",
+  chair = "Chair: Bahman Rostami-Tabar (Cardiff University)",
+  time = "13:05 - 13:40 (UTC)",
   date = "Thu, June 24",
   talks = list(
-    "14:05 (UTC)" = LMilano
+    "13:05 (UTC)" = LMilano
   )  
 )
 
@@ -143,45 +175,143 @@ html_session(keynote_2, id="key2")
 #-------------------------------------------------------#
 
 van_den_Homberg = list(
-  author = "Marc van den Homberg",
-  title = "Forecasting for anticipatory action in the Red Cross for different type of hazards, drought, typhoons, floods, food security",
-  abstract = "Overview presentation of which forecasting models are used for anticipatory action in the Red Cross for different type of hazards, drought, typhoons, floods, food security."
+  author = "Marc van den Homberg (510 an initiative of the Netherlands Red Cross)",
+  title = "Reducing the impacts of natural hazards through forecast-based action: from early warning to early action within the Red Cross Red Crescent Movement",
+  abstract = "The Sendai Framework for disaster risk reduction (SFDRR) and its 
+  seventh global target recognizes that increased efforts are required to 
+  develop risk-informed and impact-based multi-hazard early warning systems. 
+  Despite significant advances in disaster forecasting and warning technology, 
+  it remains challenging to produce valuable forecasts and warnings that can be 
+  understood and used to trigger early actions. Overcoming these challenges 
+  requires an understanding of the reliability of forecast tools and implementation 
+  barriers combined with the development of new risk-informed processes. 
+  It also requires a commitment to create and share risk and impact data and 
+  co-produce impact-based forecasting models and services. To deal with the 
+  problem of coming into action in response to imperfect forecasts, novel 
+  science-based concepts have recently emerged. The Red Cross Red Crescent 
+  Movement has and is implementing with several stakeholders Forecast-based 
+  financing (FbF) to reduce disaster losses and ensure reaching the objectives 
+  of SFDRR. This presentation will give an overview of which impact-based 
+  forecasting models are used for anticipatory action in the Red Cross for 
+  different type of hazards, such as drought, cyclones and floods. 
+  These models translate forecasts of various climate-related and 
+  geohazards into impact-based forecasts. Finally, this presentation 
+  will zoom in on cyclones and describe the context for FbF for typhoons 
+  in the Philippines and introduce the three subsequent speakers of this session."
 )
 
 Teklesadik = list(
-  author = "Aklilu Teklesadik and Damien Riquet, German Red Cross (based in Manila)",
-  title = "Using probabilistic typhoon track information in a machine learning model to predict impact to houses",
-  abstract = ""
+  author = "Aklilu Teklesadik and Damien Riquet (German Red Cross based in Manila)",
+  title = "Forecasting the humanitarian impact of typhoons with machine learning",
+  abstract = "Due to its geographical location, the Philippines is highly exposed 
+  to risks associated with Tropical Cyclones (TC). Every year at least one 
+  TC will make a landfall resulting in a big humanitarian impact and economic loss. 
+  To reduce the humanitarian impact of TC in the Philippines, the Philippine Red Cross 
+  and German Red Cross designed and implemented a Forecast Based Financing (FbF) 
+  system, which is a mechanism to access humanitarian finance before a disaster 
+  strikes, enabling humanitarian actors to take lifesaving early actions. 
+  The early actions in the FbF system are pre-identified and will be activated 
+  when a trigger model indicates a pre-defined danger level will be exceeded. 
+  For the FbF project in the Philippines, a danger level threshold of 10% of 
+  buildings in a municipality will be completely damaged was defined by analyzing 
+  historical impact data. In this presentation, we will explain the development 
+  and application of a Machine Learning (ML) impact-based forecasting model which 
+  is used as a triggering tool for guiding the implementation of the early action 
+  defined in the PRC FBF system. The ML model predicts the percentage of damaged 
+  houses per municipality with a lead time of 120 to 72hrs before TC landfall. 
+  Two ML models were developed. A classification model that will predict if the 
+  10% threshold is passed and hence will guide where to activate FbF early actions.
+  A regression model that will identify the most impacted municipalities and that 
+  can be used to prioritize interventions. For both classification and regression 
+  models, multiple learning algorithms were compared. A model based on the 
+  RandomForest algorithm outperformed other models for both classification and 
+  regression problems for both the training and validation datasets. 
+  Comparison of the machine learning model against a baseline model,
+  which is a model based on physical vulnerability (damage curves), 
+  showed the machine learning model has a better skill in predicting 
+  percentage damage for historical typhoon events. With this case study, 
+  we demonstrated the benefit of the machine learning model as a trigger 
+  tool for activating FbF early actions and how this information is used 
+  to guide humanitarian early actions to reduce the impact of typhoons on 
+  vulnerable communities."
 )
 
 van_Brussel = list(
-  author = "Marieke van Brussel, University of Amsterdam",
+  author = "Marieke van Brussel (510 an initiative of the Netherlands Red Cross and University of Amsterdam)",
   title = "Predicting the impact of typhoons on rice fields in the Philippines",
-  abstract = ""
+  abstract = "With an average of 22 Tropical Cyclones (TC) entering the Philippines
+  Area of Responsibility on a yearly basis, they are the natural hazard with 
+  the highest human and economic impact. The extreme winds and rains brought 
+  by these TC's heavily affect the agricultural sector, making it the sector 
+  with the largest economic damages. A specific crop of interest here is rice. 
+  With rice accounting for nearly 25% of the agricultural value and it being the 
+  staple food for 90% of the population, TC damage to the rice fields has a 
+  significant impact on the Philippines' economy and food security. To mitigate 
+  the damages caused, early action protocols that are triggered 
+  by data-driven models are being developed. To this extent, areas that are in 
+  the highest need of help need to be identified, emphasizing the need for 
+  models that predict damages on a granular level. The key aim of this study is, therefore, to develop a model for predicting 
+  the percentage area of rice fields that a TC will damage on the municipality level. 
+  More specifically, we developed 1) a classification model to determine whether a 
+  damage threshold of 30% is passed and 2) a regression model that predicts the 
+  percentage damage. To this extent, a set of ML techniques was implemented using 
+  exposure and vulnerability indicators that include geographical, socioeconomic, 
+  and agricultural variables, as well as typhoon-specific hazard indicators. 
+  A comparison with baseline classification and regression models shows that the ML 
+  models provide an improved predictive performance, confirming their potential for
+  assisting in pre-disaster fund distribution to mitigate the damages caused to 
+  rice fields. Thus far, the research has been focused on the Bicol region, but 
+  we are currently working on an extension to generalize the models for national coverage."
 )
 
 Vonk = list(
-  author = "Demi Vonk, ITC University of Twente",
+  author = "Demi Vonk (510 an initiative of the Netherlands Red Cross and Faculty of Geo-Information Science and Earth Observation, University of Twente, ITC)",
   title = "Balancing permanent and forecast-based action to lessen wind-induced building damage in the Philippines",
-  abstract = ""
+  abstract = "With a global paradigm shift from post-disaster response aid to 
+  anticipatory action, the question on how anticipatory action relates to long-term 
+  climate adaptation and often government-led actions towards permanent disaster 
+  prevention becomes more relevant. With rising disaster risk, a framework that 
+  decision-makers can use to select between preventive and preparedness risk 
+  reduction efforts would be most useful. A model originally developed to compare 
+  permanent interventions to forecast-based action for floods was applied to 
+  wind-induced building damage due to tropical cyclones, focusing on a case 
+  study from the Philippines. We made use of a typhoon forecasting model 
+  based on the ensemble forecast from EMCWF, and modelled the wind footprint 
+  to estimate both the observed and forecasted windspeed during tropical cyclone 
+  events between 2006 and 2020 in the case study area. A trigger threshold was 
+  defined, similar to how it is done in actual operations by the Philippine Red Cross. 
+  If the forecasted windspeed exceeds a pre-set threshold in 
+  terms of wind speed, action to strengthen light-weight wooden houses with a 
+  Shelter Strengthening Kit (SSK) is taken. SSKs temporarily make these houses 
+  more resistant to withstand extreme winds, thereby reducing the impacts. 
+  This short-term action is compared to a scenario in which lightweight wooden 
+  houses are permanently upgraded. Event-based losses to repair and sheltering 
+  costs are estimated through damage curves. The total monetary losses that would 
+  have been sustained between 2006-2020 are brought back to mean annual losses 
+  to gain a better understanding of when scenarios would outweigh each other. 
+  Though initial results hint at a timeframe of 19 years, it was found that 
+  results are highly sensitive to variables used. Thus, an extensive sensitivity 
+  analysis gives actors in humanitarian response, anticipatory action as well 
+  as permanent disaster prevention insight into which variables affect this balance. 
+  Building on these findings, could help policymakers to allocate their scarce 
+  budgets in a cost-effective way. The framework, although developed for 
+  the Philippines, can also be replicated in other cyclone-prone countries."
 )
-
 
 session_2 = list(
   title = "Session #2: Anticipatory action for typhoons in the Philippines; from modeling triggers and predicting impacts to evaluating early actions ", 
-  chair = "Chair: Marc van den Homberg",
-  time = "14:40 - 16:20 (UTC)",
+  chair = "Chair: Marc van den Homberg (510 an initiative of the Netherlands Red Cross)",
+  time = "13:40 - 15:20 (UTC)",
   date = "Thu, June 24",
   talks = list(
-    "14:40 (UTC)" = van_den_Homberg, 
-    "15:05 (UTC)" = Teklesadik, 
-    "15:30 (UTC)" = van_Brussel,
-    "15:55 (UTC)" = Vonk
+    "13:40 (UTC)" = van_den_Homberg, 
+    "14:05 (UTC)" = Teklesadik, 
+    "14:30 (UTC)" = van_Brussel,
+    "14:55 (UTC)" = Vonk
   )
 )
 
 html_session(session_2, id="session2")
-
 
 #-------------------------------------------------------#
 # Lunch
@@ -189,7 +319,7 @@ html_session(session_2, id="session2")
 lunch_1 = list(
   title = "Lunch", 
   # chair = "",
-  time = "16:20 - 17:00 (UTC)",
+  time = "15:20 - 16:00 (UTC)",
   date = "Thu, June 24"
   #talks = list()
 )
@@ -197,57 +327,6 @@ lunch_1 = list(
 html_session(lunch_1, id="lunch1")
 
 print(htmltools::br())
-
-#-------------------------------------------------------#
-# Keynote 3
-#-------------------------------------------------------#
-GMilano = list(
-  author = "Glenn Milano, United States Agency for International Development (USAID), Office of Population and Reproductive Health",
-  title = "TBD",
-  abstract = 'TBD'
-)
-
-keynote_3 = list(
-  title = "Keynote #3: TBD", 
-  chair = "Chair: TBD",
-  time = "17:00 - 17:35 (UTC)",
-  date = "Thu, June 24",
-  talks = list(
-    "17:00 (UTC)" = GMilano
-  )  
-)
-
-html_session(keynote_3, id="key3")
-
-#-------------------------------------------------------#
-# Session 3
-#-------------------------------------------------------#
-
-Chen = list(
-  author = "Trista Chen, Chief AI Officer, Inventec Corp, Taiwan",
-  title = "TBD",
-  abstract = ""  
-)
-
-Kells = list(
-  author = "Adam Kells, Data Scientist, CausaLens, UK",
-  title = "TBD",
-  abstract = ""  
-)
-
-
-session_3 = list(
-  title = "Session #3: Public Sector/Government Policy", 
-  chair = "Chair: Glenn Milano",
-  time = "17:35 - 18:25 (UTC)",
-  date = "Thu, June 24",
-  talks = list(
-    "17:35 (UTC)" = Chen, 
-    "18:00 (UTC)" = Kells
-  )
-)
-
-html_session(session_3, id="session3")
 
 #-------------------------------------------------------#
 # Panel 1
@@ -274,16 +353,130 @@ panelists = list(
 
 panel_1 = list(
   title = "Panel #1: Ethical Considerations in Forecasting", 
-  chair = "Moderator: David Leblang, University of Virginia",
-  time = "18:30 - 20:00	 (UTC)",
+  chair = "Moderator: David Leblang (University of Virginia)",
+  time = "16:00 - 17:30	 (UTC)",
   date = "Thu, June 24",
   talks = list(
-    "18:30 (UTC)" = panelists
+    "16:00 (UTC)" = panelists
   )  
 )
 
 html_session(panel_1, id="panel1")
 
+#-------------------------------------------------------#
+# Break
+#-------------------------------------------------------#
+break_2 = list(
+  title = "Break", 
+  # chair = "",
+  time = "17:30 - 17:40 (UTC)",
+  date = "Thu, June 24"
+  #talks = list()
+)
+
+html_session(break_2)
+
+print(htmltools::br())
+
+#-------------------------------------------------------#
+# Keynote 3
+#-------------------------------------------------------#
+GMilano = list(
+  author = "Glenn Milano (United States Agency for International Development (USAID), Office of Population and Reproductive Health)",
+  title = "USAID's Intelligent Forecasting: A Competition to Model Future Contraceptive Use",
+  abstract = "USAID's Intelligent Forecasting Competition to Model Future 
+  Contraceptive Use is our latest effort to improve forecasting accuracy of 
+  life-saving medical products in our Global Health Supply Chain. 
+  The purpose of the competition was to learn from empirical evidence how to 
+  improve the forecasting accuracy and how such learning could be used to 
+  advance the practice of forecasting health products in a least developed 
+  country context. This presentation covers USAID’s health supply chain 
+  forecasting methods and mechanisms including this competition’s organization 
+  and running, presentation of results, the top-performing methods and other 
+  major findings."
+)
+
+keynote_3 = list(
+  title = "Keynote #3: USAID Intelligent Forecasting", 
+  chair = "Chair: Bahman Rostami-Tabar (Cardiff University)",
+  time = "17:40 - 18:15 (UTC)",
+  date = "Thu, June 24",
+  talks = list(
+    "17:40 (UTC)" = GMilano
+  )  
+)
+
+html_session(keynote_3, id="key3")
+
+#-------------------------------------------------------#
+# Session 3
+#-------------------------------------------------------#
+
+Chen = list(
+  author = "Trista Chen, Jonathan Hans Soeseno, Davide Burba (Inventec Corporation)",
+  title = "Forecasting with Artificial Intelligence: From Manufacturing Logistics Management to Global Health Forecasting",
+  abstract = "Being a multi-national corporation with manufacturing sites around 
+  the world, we will share in this talk our strategy in applying tens of years 
+  of supply chain management (SCM) experience to solve global health challenges. 
+  Specifically, we will outline the similarity and dissimilarity between the two 
+  settings: manufacturing and global health. Next, we will share a few key factors 
+  that may contribute to our success in the USAID Intelligent Forecasting 
+  competition, e.g., data engineering, AI model selections, etc. 
+  Reimagining global health through the lens of AI, we hope to broaden 
+  the reach and impact of the AI technology."  
+)
+
+Kells = list(
+  author = "Adam Kells (CausaLens),
+  Andre Franca,
+  Maksim Sipos",
+  title = "Using Causal AI to forecast contraceptive usage",
+  abstract = "In this talk we describe the challenges and solutions developed 
+  for forecasting contraceptive use as part of the USAID competition. 
+  We used a variety of ensembling techniques, as well as advanced signal testing 
+  and causal discovery methods."  
+)
+
+Craig = list(
+  author = "Craig Jolley, Aubra Anthony, Shachee Doshi, Amy Paul, Andrew Merluzzi,
+  Andre Franca (USAID),
+  Maksim Sipos",
+  title = "AI and advanced forecasting at USAID",
+  abstract = "As artificial intelligence tools become more accessible and widely-used, 
+  development organizations are increasingly turning 
+  to forecasting tools in an effort to gain efficiency, 
+  reduce risk, and respond more quickly in volatile 
+  environments. At the same time, AI-based forecasting 
+  carries risks of bias, overconfidence, 
+  or misapplication, along with the reputational and 
+  moral hazards of (imperfectly) predicting future events. 
+  At the U.S. Agency for International Development, 
+  we aim to strike a strategic balance between 
+  adoption of tools that can improve our work 
+  and caution about their limitations and potential 
+  misuse. A key part of our approach is to pay 
+  attention to the broader technology 
+  ecosystem -- looking beyond a specific AI application
+  to understand the societal, regulatory, 
+  and economic context into which it is deployed. 
+  This talk will walk through a few examples of 
+  forecasting-related projects at USAID and what 
+  we have learned from these experiences."  
+)
+
+session_3 = list(
+  title = "Session #3: USAID's Intelligent Forecasting: A Competition to Model Future Contraceptive Use", 
+  chair = "Chair: Glenn Milano (USAID)",
+  time = "18:15 - 19:30 (UTC)",
+  date = "Thu, June 24",
+  talks = list(
+    "18:15 (UTC)" = Chen, 
+    "18:40 (UTC)" = Kells,
+    "19:05 (UTC)" = Kells
+  )
+)
+
+html_session(session_3, id="session3")
 
 
 #-------------------------------------------------------#
@@ -292,11 +485,10 @@ html_session(panel_1, id="panel1")
 
 close_1 = list(
   title = "Closing Day 1", 
-  chair = "Chair: Bahman Rostami-Tabar",
-  time = "20:00 - 20:05 (UTC)",
+  chair = "Chair: Bahman Rostami-Tabar (Cardiff University)",
+  time = "19:30 - 19:35 (UTC)",
   date = "Thu, June 24"
   #talks = list( )
 )
 
 html_session(close_1, id="close1")
-
