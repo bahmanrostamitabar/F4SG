@@ -237,7 +237,7 @@ Teklesadik = list(
 )
 
 van_Brussel = list(
-  author = "Marieke van Brussel (510 an initiative of the Netherlands Red Cross and University of Amsterdam)",
+  author = "Marieke van Brussel--510 an initiative of the Netherlands Red Cross and University of Amsterdam)",
   title = "Predicting the impact of typhoons on rice fields in the Philippines",
   abstract = "With an average of 22 Tropical Cyclones (TC) entering the Philippines
   Area of Responsibility on a yearly basis, they are the natural hazard with 
@@ -427,7 +427,7 @@ Chen = list(
 )
 
 Kells = list(
-  author = "Adam Kells, Andre Franca and Maksim Sipos, CausaLens",
+  author = "Adam Kells, Andre Franca and Maksim Sipos--CausaLens",
   title = "Using Causal AI to forecast contraceptive usage",
   abstract = "In this talk we describe the challenges and solutions developed 
   for forecasting contraceptive use as part of the USAID competition. 
