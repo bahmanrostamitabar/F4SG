@@ -13,14 +13,14 @@ arrival = list(
 )
 
 Bahman = list(
-  author = "Bahman Rostami-Tabar (Cardiff University)",
+  author = "Bahman Rostami-Tabar, Cardiff University",
   title = "Information from the Organisers",
   abstract = ""
 )
 
 welcome_1 = list(
   title = "Welcome", 
-  chair = "Chair: Bahman Rostami-Tabar (Cardiff University)",
+  chair = "Chair: Bahman Rostami-Tabar, Cardiff University",
   time = "10:30 - 11:05 (UTC)",
   date = "Thu, June 24",
   talks = list(
@@ -35,7 +35,7 @@ html_session(welcome_1, id="welcome_1")
 # Keynote 1
 #-------------------------------------------------------#
 Reich = list(
-  author = "Nicholas Reich (University of Massachusetts-Amherst)",
+  author = "Nicholas Reich, University of Massachusetts-Amherst",
   title = "Building the COVID-19 Forecast Hub, a collaborative network to improve
 infectious disease forecasting",
   abstract = htmltools::HTML('The US COVID-19 Forecast Hub is a collaborative effort of infectious
@@ -69,7 +69,7 @@ html_session(keynote_1, id="key1")
 #-------------------------------------------------------#
 
 Bosse = list(
-  author = "Nikos Bosse (London School of Hygiene and Tropical Medicine)",
+  author = "Nikos Bosse, London School of Hygiene and Tropical Medicine",
   title = " Crowd predictions vs. model-based forecasts of COVID-19",
   abstract = "Model-based forecasts have played a large role in 
   informing public policy throughout the COVID-19 pandemic. 
@@ -88,13 +88,13 @@ Bosse = list(
 )
 
 Adiga = list(
-  author = "Aniruddha Adiga (University of Virginia)",
+  author = "Aniruddha Adiga, University of Virginia",
   title = "TBD: Ensemble Forecasts of COVID-19",
   abstract = ""
 )
 
 Bracher = list(
-  author = "Johannes Bracher (Karlsruhe Institute of Technology, Heidelberg Institute of Theoretical Studies)",
+  author = "Johannes Bracher, Karlsruhe Institute of Technology, Heidelberg Institute of Theoretical Studies",
   title = "Collaborative forecasting of COVID-19 cases and deaths in Germany and Poland",
   abstract = "There has been a surge in epidemic short-term forecasting 
   during the COVID-19 pandemic, with a large number of forecasting 
@@ -119,7 +119,7 @@ Bracher = list(
 
 session_1 = list(
   title = "Session #1: Real-time forecasting of the COVID-19 pandemic", 
-  chair = "Chair: Johannes Bracher (Karlsruhe Institute of Technology, Heidelberg Institute of Theoretical Studies)",
+  chair = "Chair: Johannes Bracher, Karlsruhe Institute of Technology, Heidelberg Institute of Theoretical Studies",
   time = "11:40 - 12:55 (UTC)",
   date = "Thu, June 24",
   talks = list(
@@ -150,7 +150,7 @@ print(htmltools::br())
 # Keynote 2
 #-------------------------------------------------------#
 LMilano = list(
-  author = "Leonardo Milano (United Nations Office for the Coordination of Humanitarian Affairs (OCHA))",
+  author = "Leonardo Milano, United Nations Office for the Coordination of Humanitarian Affairs (OCHA)",
   title = "Anticipating humanitarian crises to respond earlier, saving and protecting more lives",
   abstract = 'Although predictive analytics is not a new field, its application in humanitarian response has only just begun. The increasing availability of data from a variety of sources, together with advancements in statistics and machine learning, is generating a growing interest in using models to gain insight and trigger anticipatory action.
 Using data science to anticipate humanitarian crises represents a great opportunity for organizations to respond earlier, saving and protecting more lives than ever before. 
@@ -159,7 +159,7 @@ The Centre for Humanitarian Data of the United Nations Office for the Coordinati
 
 keynote_2 = list(
   title = "Keynote #2: Anticipating Humanitarian Crises", 
-  chair = "Chair: Bahman Rostami-Tabar (Cardiff University)",
+  chair = "Chair: Bahman Rostami-Tabar, Cardiff University",
   time = "13:05 - 13:40 (UTC)",
   date = "Thu, June 24",
   talks = list(
@@ -175,7 +175,7 @@ html_session(keynote_2, id="key2")
 #-------------------------------------------------------#
 
 van_den_Homberg = list(
-  author = "Marc van den Homberg (510 an initiative of the Netherlands Red Cross)",
+  author = "Marc van den Homberg, 510 an initiative of the Netherlands Red Cross",
   title = "Reducing the impacts of natural hazards through forecast-based action: from early warning to early action within the Red Cross Red Crescent Movement",
   abstract = "The Sendai Framework for disaster risk reduction (SFDRR) and its 
   seventh global target recognizes that increased efforts are required to 
@@ -201,7 +201,7 @@ van_den_Homberg = list(
 )
 
 Teklesadik = list(
-  author = "Aklilu Teklesadik and Damien Riquet (German Red Cross based in Manila)",
+  author = "Aklilu Teklesadik and Damien Riquet, German Red Cross based in Manila",
   title = "Forecasting the humanitarian impact of typhoons with machine learning",
   abstract = "Due to its geographical location, the Philippines is highly exposed 
   to risks associated with Tropical Cyclones (TC). Every year at least one 
@@ -300,7 +300,7 @@ Vonk = list(
 
 session_2 = list(
   title = "Session #2: Anticipatory action for typhoons in the Philippines; from modeling triggers and predicting impacts to evaluating early actions ", 
-  chair = "Chair: Marc van den Homberg (510 an initiative of the Netherlands Red Cross)",
+  chair = "Chair: Marc van den Homberg, 510 an initiative of the Netherlands Red Cross",
   time = "13:40 - 15:20 (UTC)",
   date = "Thu, June 24",
   talks = list(
@@ -353,7 +353,7 @@ panelists = list(
 
 panel_1 = list(
   title = "Panel #1: Ethical Considerations in Forecasting", 
-  chair = "Moderator: David Leblang (University of Virginia)",
+  chair = "Moderator: David Leblang, University of Virginia",
   time = "16:00 - 17:30	 (UTC)",
   date = "Thu, June 24",
   talks = list(
@@ -382,7 +382,7 @@ print(htmltools::br())
 # Keynote 3
 #-------------------------------------------------------#
 GMilano = list(
-  author = "Glenn Milano (United States Agency for International Development (USAID), Office of Population and Reproductive Health)",
+  author = "Glenn Milano, United States Agency for International Development (USAID), Office of Population and Reproductive Health",
   title = "USAID's Intelligent Forecasting: A Competition to Model Future Contraceptive Use",
   abstract = "USAID's Intelligent Forecasting Competition to Model Future 
   Contraceptive Use is our latest effort to improve forecasting accuracy of 
@@ -398,7 +398,7 @@ GMilano = list(
 
 keynote_3 = list(
   title = "Keynote #3: USAID Intelligent Forecasting", 
-  chair = "Chair: Bahman Rostami-Tabar (Cardiff University)",
+  chair = "Chair: Bahman Rostami-Tabar, Cardiff University",
   time = "17:40 - 18:15 (UTC)",
   date = "Thu, June 24",
   talks = list(
@@ -413,7 +413,7 @@ html_session(keynote_3, id="key3")
 #-------------------------------------------------------#
 
 Chen = list(
-  author = "Trista Chen, Jonathan Hans Soeseno, Davide Burba (Inventec Corporation)",
+  author = "Trista Chen, Jonathan Hans Soeseno and Davide Burba, Inventec Corporation",
   title = "Forecasting with Artificial Intelligence: From Manufacturing Logistics Management to Global Health Forecasting",
   abstract = "Being a multi-national corporation with manufacturing sites around 
   the world, we will share in this talk our strategy in applying tens of years 
@@ -427,7 +427,7 @@ Chen = list(
 )
 
 Kells = list(
-  author = "Adam Kells (CausaLens),
+  author = "Adam Kells, CausaLens,
   Andre Franca,
   Maksim Sipos",
   title = "Using Causal AI to forecast contraceptive usage",
@@ -438,8 +438,7 @@ Kells = list(
 )
 
 Craig = list(
-  author = "Craig Jolley, Aubra Anthony, Shachee Doshi, Amy Paul, Andrew Merluzzi,
-  Andre Franca (USAID),
+  author = "Craig Jolley, Aubra Anthony, Shachee Doshi, Amy Paul, Andrew Merluzzi and Andre Franca, USAID,
   Maksim Sipos",
   title = "AI and advanced forecasting at USAID",
   abstract = "As artificial intelligence tools become more accessible and widely-used, 
@@ -466,13 +465,13 @@ Craig = list(
 
 session_3 = list(
   title = "Session #3: USAID's Intelligent Forecasting: A Competition to Model Future Contraceptive Use", 
-  chair = "Chair: Glenn Milano (USAID)",
+  chair = "Chair: Glenn Milano, USAID",
   time = "18:15 - 19:30 (UTC)",
   date = "Thu, June 24",
   talks = list(
     "18:15 (UTC)" = Chen, 
     "18:40 (UTC)" = Kells,
-    "19:05 (UTC)" = Kells
+    "19:05 (UTC)" = Craig
   )
 )
 
@@ -485,7 +484,7 @@ html_session(session_3, id="session3")
 
 close_1 = list(
   title = "Closing Day 1", 
-  chair = "Chair: Bahman Rostami-Tabar (Cardiff University)",
+  chair = "Chair: Bahman Rostami-Tabar, Cardiff University",
   time = "19:30 - 19:35 (UTC)",
   date = "Thu, June 24"
   #talks = list( )

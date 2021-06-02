@@ -8,14 +8,14 @@ library(htmltools)
 #-------------------------------------------------------#
 
 Bahman = list(
-  author = "Bahman Rostami-Tabar (Cardiff University)",
+  author = "Michael D. Porter, University of Virginia",
   title = "Information from the Organisers",
   abstract = ""
 )
 
 welcome_2 = list(
   title = "Welcome", 
-  chair = "Chair: Bahman Rostami-Tabar (Cardiff University)",
+  chair = "Chair: Michael D. Porter, University of Virginia",
   time = "10:50 - 11:00 (UTC)",
   date = "Fri, June 25",
   talks = list(
@@ -52,7 +52,7 @@ Albert = list(
 
 keynote_4 = list(
   title = "Keynote #4: Predictive and Prescriptive Analytics for Public Safety", 
-  chair = "Chair: TBD",
+  chair = "Chair: Michael D. Porter, University of Virginia",
   time = "11:00 - 11:35	(UTC)",
   date = "Fri, June 25",
   talks = list(
@@ -62,13 +62,12 @@ keynote_4 = list(
 
 html_session(keynote_4, id="key4")
 
-
 #-------------------------------------------------------#
 # Session 5
 #-------------------------------------------------------#
 
 Odubela = list(
-  author = "Kehinde Odubela, Steven Jiang, Lauren Davis (North Carolina A&T State University)",
+  author = "Kehinde Odubela, Steven Jiang and Lauren Davis, North Carolina A&T State University",
   title = "Estimating True Demand at Hunger Relief Organizations with Predictive Modeling",
   abstract = 'Hunger relief organizations are important to provide safe and nutritious 
   food to people who experience food insecurity. Predicting food demand is a challenge 
@@ -93,13 +92,13 @@ Lentz = list(
 )
 
 Rogerio = list(
-  author = 'Rogerio (United Nations World Food Programme (WFP))',
+  author = 'Rogerio, United Nations World Food Programme (WFP)',
   title = 'TBD',
   abstract = ''
 )
 
 Gabriela = list(
-  author = 'Gabriela (World Bank, Global Facility for Disaster Reduction and Recovery (GFDRR))',
+  author = 'Gabriela, World Bank, Global Facility for Disaster Reduction and Recovery (GFDRR)',
   title = 'TBD',
   abstract = ''
 ) 
@@ -271,13 +270,13 @@ html_session(keynote_5, id="key5")
 # Session 7
 #-------------------------------------------------------#
 Lowe = list(
-  author = 'Rachel Lowe (London School of Hygiene and Tropical Medicine)',
+  author = 'Rachel Lowe, London School of Hygiene and Tropical Medicine',
   title = 'Dengue early warning systems in Vietnam, Barbados and Brazil',
   abstract = ''
 )
 
 Oidtman = list(
-  author = 'Rachel Oidtman (University of Chicago)',
+  author = 'Rachel Oidtman, University of Chicago',
   title = 'Trade-offs between individual and ensemble forecasts of an emerging infectious disease',
   abstract = 'When new pathogens emerge, numerous questions arise about 
   their future spread, some of which can be addressed with probabilistic 
@@ -307,7 +306,7 @@ Oidtman = list(
 )
 
 Wang = list(
-  author = 'Lijing Wang (University of Virginia)',
+  author = 'Lijing Wang, University of Virginia',
   title = 'Artificial Intelligence Solutions for Reliable Epidemic Forecasting',
   abstract = ''
 )
@@ -336,7 +335,7 @@ html_session(session_7, id="session7")
 
 close_2 = list(
   title = "Closing", 
-  chair = "Chair: Bahman Rostami-Tabar",
+  chair = "Chair: Bahman Rostami-Tabar, Cardiff University",
   time = "17:10 - 17:30 (UTC)",
   date = "Fri, June 25"
   #talks = list( )
