@@ -265,7 +265,7 @@ van_Brussel = list(
 )
 
 Vonk = list(
-  author = "Demi Vonk (510 an initiative of the Netherlands Red Cross and Faculty of Geo-Information Science and Earth Observation, University of Twente, ITC)",
+  author = "Demi Vonk, 510 an initiative of the Netherlands Red Cross and University of Twente, ITC",
   title = "Balancing permanent and forecast-based action to lessen wind-induced building damage in the Philippines",
   abstract = "With a global paradigm shift from post-disaster response aid to 
   anticipatory action, the question on how anticipatory action relates to long-term 
