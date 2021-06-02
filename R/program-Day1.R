@@ -159,7 +159,7 @@ The Centre for Humanitarian Data of the United Nations Office for the Coordinati
 
 keynote_2 = list(
   title = "Keynote #2: Anticipating Humanitarian Crises", 
-  chair = "Chair: Bahman Rostami-Tabar, Cardiff University",
+  chair = "Chair: Zied Babai, Kedge Business School",
   time = "13:05 - 13:40 (UTC)",
   date = "Thu, June 24",
   talks = list(
@@ -438,8 +438,8 @@ Kells = list(
 )
 
 Craig = list(
-  author = "Craig Jolley, Aubra Anthony, Shachee Doshi, Amy Paul, Andrew Merluzzi and Andre Franca, USAID,
-  Maksim Sipos",
+  author = "Craig Jolley, Aubra Anthony, Shachee Doshi, Amy Paul, Andrew Merluzzi, Andre Franca and
+  Maksim Sipos, USAID",
   title = "AI and advanced forecasting at USAID",
   abstract = "As artificial intelligence tools become more accessible and widely-used, 
   development organizations are increasingly turning 
