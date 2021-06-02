@@ -427,9 +427,7 @@ Chen = list(
 )
 
 Kells = list(
-  author = "Adam Kells, CausaLens,
-  Andre Franca,
-  Maksim Sipos",
+  author = "Adam Kells, Andre Franca and Maksim Sipos, CausaLens",
   title = "Using Causal AI to forecast contraceptive usage",
   abstract = "In this talk we describe the challenges and solutions developed 
   for forecasting contraceptive use as part of the USAID competition. 
@@ -438,8 +436,7 @@ Kells = list(
 )
 
 Craig = list(
-  author = "Craig Jolley, Aubra Anthony, Shachee Doshi, Amy Paul, Andrew Merluzzi, Andre Franca and
-  Maksim Sipos, USAID",
+  author = "Craig Jolley, Aubra Anthony, Shachee Doshi, Amy Paul and Andrew Merluzzi, USAID",
   title = "AI and advanced forecasting at USAID",
   abstract = "As artificial intelligence tools become more accessible and widely-used, 
   development organizations are increasingly turning 
