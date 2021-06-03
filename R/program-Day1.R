@@ -123,9 +123,9 @@ session_1 = list(
   time = "11:40 - 12:55 (UTC)",
   date = "Thu, June 24",
   talks = list(
-    "11:40 (UTC)" = Adiga, 
-    "12:05 (UTC)" = Bracher, 
-    "12:30 (UTC)" = Bosse
+    "11:40 (UTC)" = Bracher, 
+    "12:05 (UTC)" = Bosse, 
+    "12:30 (UTC)" = Adiga
   )
 )
 
