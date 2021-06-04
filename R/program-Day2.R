@@ -271,7 +271,7 @@ html_session(keynote_5, id="key5")
 #-------------------------------------------------------#
 Lowe = list(
   author = 'Rachel Lowe, London School of Hygiene and Tropical Medicine',
-  title = 'Dengue early warning systems in Vietnam, Barbados and Brazil',
+  title = 'Impact-based forecasting for climate-sensitive diseases',
   abstract = ''
 )
 
@@ -305,12 +305,51 @@ Oidtman = list(
   obtain robust forecasts in the context of emerging infectious diseases.'
 )
 
-Wang = list(
+jacob = list(
   author = 'Lijing Wang, University of Virginia',
-  title = 'Artificial Intelligence Solutions for Reliable Epidemic Forecasting',
-  abstract = ''
+  title = 'Bayesian Ensembling for High Resolution COVID-19 Forecasting',
+  abstract = "Timely, high-resolution forecasts of infectious disease incidence
+  are useful for policy makers in deciding intervention measures
+  and estimating healthcare resource burden. In this talk, 
+  we discuss our efforts towards forecasting COVID-19 
+  confirmed cases at the county level for the United States. 
+  Although multiple methods have been explored for this task, 
+  their performance has varied across space and time due 
+  to noisy data and the inherent dynamic nature of the 
+  pandemic. We present a forecasting pipeline which 
+  incorporates probabilistic forecasts from multiple 
+  statistical, machine learning and mechanistic methods 
+  through a Bayesian ensembling scheme, and has been 
+  operational for nearly 10 months serving local, state and 
+  federal policymakers in the United States. While showing 
+  that the Bayesian ensemble is at least as good as the 
+  individual methods, we also show that each individual 
+  method contributes significantly for different spatial 
+  regions and time points. We compare our model's performance 
+  with other similar models being integrated into 
+  CDC-initiated COVID-19 Forecast Hub. We also describe 
+  how such forecasts are used to increase lead time 
+  for training mechanistic scenario projections."
 )
 
+Wang= list(
+  author = 'Lijing Wang, University of Virginia',
+  title = 'Artificial Intelligence Solutions for Reliable Epidemic Forecasting',
+  abstract = 'Infectious diseases, such as seasonal influenza, Zika, 
+  Ebola, and the ongoing COVID-19 pandemic, place a heavy social
+  and economic burden on our society. Producing timely, 
+  well-informed, and reliable spatiotemporal forecasts can 
+  help for public health decision making, effective interventions
+  and optimal mitigation resource allocation. However, producing 
+  reliable epidemic forecasting using deep learning models is 
+  challenging due to the lack of high quality surveillance data 
+  and the blackbox nature of deep learning models that barely 
+  consider epidemiological context for epidemic forecasting. 
+  My research focuses on deep learning-based methods that 
+  incorporate physical knowledge, spatio-temporal features, 
+  and multi-source data analysis for a better understanding 
+  of disease spreading and improving forecasting accuracy.'
+)
 
 session_7 = list(
   title = "Session #7: Forecasting infectious diseases: Zika, dengue and COVID-19", 
