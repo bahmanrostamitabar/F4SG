@@ -272,7 +272,28 @@ html_session(keynote_5, id="key5")
 Lowe = list(
   author = 'Rachel Lowe, London School of Hygiene and Tropical Medicine',
   title = 'Impact-based forecasting for climate-sensitive diseases',
-  abstract = ''
+  abstract = 'Extreme hydrometeorological events, such as tropical storms, floods, 
+  and droughts, can impact the timing and intensity of outbreaks of Aedes-borne 
+  arboviral diseases, such as dengue, chikungunya, and Zika. Aedes mosquitoes 
+  vector thrives in warm and humid conditions with rainfall increasing the number 
+  of outdoor breeding sites. However, drought conditions can also promote breeding, 
+  due to an increase in water storage containers in and around the home. 
+  In this session, I will present A Bayesian spatio-temporal model framework, which 
+  quantifies the extent to which environmental and socio-economic indicators 
+  can explain variations in disease risk. The framework provides probabilistic 
+  predictions of monthly disease incidence and the probability of exceeding 
+  outbreak thresholds, which are determined in consultation with public health 
+  stakeholders. This disease model framework, combined with seasonal climate forecasts,
+  has been successfully applied to produce real-time probabilistic dengue early 
+  warnings in Brazil, southern coastal Ecuador, and Vietnam. 
+  The model framework was recently extended to account for delayed and nonlinear 
+  impacts of drought and extreme rainfall on dengue risk in Barbados and across 
+  Brazil, showing that the impact of drought is exacerbated in urban areas due to 
+  interrupted water supply. Incorporating seasonal climate forecasts in disease 
+  early warning systems can trigger action plans to support public health 
+  decision-makers in targeting timely disease control and prevention strategies 
+  months in advance, to mitigate the risk of imminent disease epidemics and 
+  emerging disease threats.'
 )
 
 Oidtman = list(
