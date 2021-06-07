@@ -86,9 +86,22 @@ Odubela = list(
 )
 
 Lentz = list(
-  author = 'Erin Lentz (University of Texas)',
-  title = 'TBD',
-  abstract = ''
+  author = 'Erin Lentz and Lyndon B Johnson, University of Texas at Austin',
+  title = 'Machine Learning for Food Security: Principles for transparency and usability',
+  abstract = 'Machine learning (ML) holds potential to predict hunger crises 
+  before they occur.  Yet, ML models embed crucial 
+  choices that affect their utility.  We develop a 
+  prototype model to predict food insecurity across 
+  three countries in sub-Saharan Africa.  Readily 
+  available data on prices, assets and weather all 
+  influence our model predictions.  Our model 
+  obtains 55-84% accuracy, substantially 
+  outperforming a logit and ML models using only 
+  time and location.  We highlight key principles 
+  for transparency and demonstrate how modeling 
+  choices between recall and accuracy can be 
+  tailored to policy-maker needs.  Our work provides 
+  a path for future modeling efforts in this area.'
 )
 
 Rogerio = list(
