@@ -353,7 +353,6 @@ html_session(session_7, id="session7")
 
 
 
-
 #-------------------------------------------------------#
 # Closing Day 2
 #-------------------------------------------------------#
@@ -361,7 +360,7 @@ html_session(session_7, id="session7")
 close_2 = list(
   title = "Closing", 
   chair = "Chair: Bahman Rostami-Tabar, Cardiff University",
-  time = "17:10 - 17:30 (UTC)",
+  time = "17:40 - 18:00 (UTC)",
   date = "Fri, June 25"
   #talks = list( )
 )
