@@ -306,35 +306,20 @@ Oidtman = list(
 )
 
 jacob = list(
-  author = 'Lijing Wang, University of Virginia',
-  title = 'Bayesian Ensembling for High Resolution COVID-19 Forecasting',
-  abstract = "Timely, high-resolution forecasts of infectious disease incidence
-  are useful for policy makers in deciding intervention measures
-  and estimating healthcare resource burden. In this talk, 
-  we discuss our efforts towards forecasting COVID-19 
-  confirmed cases at the county level for the United States. 
-  Although multiple methods have been explored for this task, 
-  their performance has varied across space and time due 
-  to noisy data and the inherent dynamic nature of the 
-  pandemic. We present a forecasting pipeline which 
-  incorporates probabilistic forecasts from multiple 
-  statistical, machine learning and mechanistic methods 
-  through a Bayesian ensembling scheme, and has been 
-  operational for nearly 10 months serving local, state and 
-  federal policymakers in the United States. While showing 
-  that the Bayesian ensemble is at least as good as the 
-  individual methods, we also show that each individual 
-  method contributes significantly for different spatial 
-  regions and time points. We compare our model's performance 
-  with other similar models being integrated into 
-  CDC-initiated COVID-19 Forecast Hub. We also describe 
-  how such forecasts are used to increase lead time 
-  for training mechanistic scenario projections."
+  author = 'Jacopo Margutti, 510 an initiative of the Netherlands Red Cross',
+  title = 'Dengue Risk Assessment & Early Warning System of Philippines Red Cross',
+  abstract = 'We introduce a methodology to construct and validate an epidemic 
+  risk index using only open data, with a specific focus on scalability, i.e. 
+  applicability to countries where limited data is available. We apply this methodology 
+  to assess the risk of dengue in the Philippines. We also present a practical 
+  dengue Early Warning System, to enable preventive actions before outbreaks occur, 
+  which is also focused on scalability. This system has been developed in 
+  collaboration with the Philippines Red Cross, which is now adopting it'
 )
 
 Wang= list(
   author = 'Lijing Wang, University of Virginia',
-  title = 'Artificial Intelligence Solutions for Reliable Epidemic Forecasting',
+  title = 'Deep Learning-based Methods for Reliable Epidemic Forecasting ',
   abstract = 'Infectious diseases, such as seasonal influenza, Zika, 
   Ebola, and the ongoing COVID-19 pandemic, place a heavy social
   and economic burden on our society. Producing timely, 
