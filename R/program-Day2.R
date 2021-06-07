@@ -339,12 +339,13 @@ Wang= list(
 session_7 = list(
   title = "Session #7: Forecasting infectious diseases: Zika, dengue and COVID-19", 
   chair = "Chair: Johannes Bracher",
-  time = "15:55 - 17:10 (UTC)",
+  time = "15:55 - 17:35 (UTC)",
   date = "Fri, June 25",
   talks = list(
     "15:55 (UTC)" = Lowe,
     "16:20 (UTC)" = Oidtman,
-    "16:45 (UTC)" = Wang
+    "16:45 (UTC)" = Wang,
+    "17:10 (UTC)" = jacob
   )
 )
 
