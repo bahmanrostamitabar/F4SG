@@ -110,10 +110,40 @@ Rogerio = list(
   abstract = ''
 )
 
-Gabriela = list(
-  author = 'Gabriela, World Bank, Global Facility for Disaster Reduction and Recovery (GFDRR)',
-  title = 'TBD',
-  abstract = ''
+joris = list(
+  author = 'Joris Westerveld, Marc van den Homberg, Gabriela Guimarães, Dennis van den Berg, Aklilu Teklesadik, Sjoerd Stuit, Utrecht University and 510 the Netherlands Red Cross',
+  title = 'Forecasting transitions in the state of food security with machine learning using transferable features',
+  abstract = 'Food insecurity is a growing concern due to man-made conflicts, climate 
+  change, and economic downturns. Forecasting the state of food insecurity 
+  is essential to be able to trigger early actions, for example, by 
+  humanitarian actors. To measure the actual state of food insecurity, 
+  expert and consensus-based approaches and surveys are currently used. 
+  Both require substantial manpower, time, and budget. This paper introduces 
+  an extreme gradient-boosting machine learning model to forecast monthly 
+  transitions in the state of food security in Ethiopia, at a spatial 
+  granularity of livelihood zones, and for lead times of one to 12 months, 
+  using open-source data. The transition in the state of food security, 
+  hereafter referred to as predictand, is represented by the Integrated 
+  Food Security Phase Classification Data. From 19 categories of 
+  datasets, 130 variables were derived and used as predictors of the 
+  transition in the state of food security. The predictors represent 
+  changes in climate and land, market, conflict, infrastructure, 
+  demographics and livelihood zone characteristics. The most relevant 
+  predictors are found to be food security history and surface soil 
+  moisture. Overall, the model performs best for forecasting 
+  Deteriorations and Improvements in the state of food security 
+  compared to the baselines. The proposed method performs (F1 macro score) 
+  at least twice as well as the best baseline (a dummy classifier) for a 
+  Deterioration. The model performs better when forecasting 
+  long-term (7 months; F1 macro average = 0.61) compared to 
+  short-term (3 months; F1 macro average = 0.51). Combining 
+  machine learning, Integrated Phase Classification (IPC) 
+  ratings from monitoring systems, and open data can add value 
+  to existing consensus-based forecasting approaches as this 
+  combination provides longer lead times and more regular updates. 
+  Our approach can also be transferred to other countries as most of 
+  the data on the predictors are openly available from global 
+  data repositories.'
 ) 
 
 
@@ -123,7 +153,7 @@ session_5 = list(
   time = "11:35 - 13:15 (UTC)",
   date = "Fri, June 25",
   talks = list(
-    "11:35 (UTC)" = Gabriela,
+    "11:35 (UTC)" = joris,
     "12:00 (UTC)" = Rogerio,
     "12:25 (UTC)" = Lentz,
     "12:50 (UTC)" = Odubela
