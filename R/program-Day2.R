@@ -104,8 +104,8 @@ Lentz = list(
   a path for future modeling efforts in this area.'
 )
 
-Rogerio = list(
-  author = 'Rogerio, United Nations World Food Programme (WFP)',
+Shukla = list(
+  author = 'Shraddhanand Shukla, UC Santa Barbara',
   title = 'TBD',
   abstract = ''
 )
@@ -154,7 +154,7 @@ session_5 = list(
   date = "Fri, June 25",
   talks = list(
     "11:35 (UTC)" = joris,
-    "12:00 (UTC)" = Rogerio,
+    "12:00 (UTC)" = Shukla,
     "12:25 (UTC)" = Lentz,
     "12:50 (UTC)" = Odubela
   )
