@@ -149,7 +149,7 @@ joris = list(
 
 session_5 = list(
   title = "Session #5: Predictive modelling for food security", 
-  chair = "Chair: TBD",
+  chair = "Chair: Marc van den Homberg",
   time = "11:35 - 13:15 (UTC)",
   date = "Fri, June 25",
   talks = list(
@@ -298,7 +298,7 @@ Makridakis = list(
 
 keynote_5 = list(
   title = "Keynote #5: Uncertainty in Medicine and in Medical Diagnosis", 
-  chair = "Chair: TBD",
+  chair = "Chair: Bahman Rostami-Tabar, Cardiff University",
   time = "15:20 - 15:55	(UTC)",
   date = "Fri, June 25",
   talks = list(
