@@ -107,7 +107,37 @@ Lentz = list(
 Shukla = list(
   author = 'Shraddhanand Shukla, UC Santa Barbara',
   title = 'TBD',
-  abstract = ''
+  abstract = 'Food insecurity is on the rise globally. In 2020, according to 
+  the United States Agency of International Development (USAID)-funded 
+  Famine Early Warning Systems Network (FEWS NET), up to 113 million 
+  people in 46 countries, most of whom are in sub-Saharan Africa (SSA), 
+  were estimated to require emergency food assistance, a 140% increase 
+  over 2015. While conflict, economic crises and COVID-19 are important
+  drivers, climate-driven drought is one of the key shocks contributing 
+  to food insecurity.  For example, recent droughts in 2015, 2016, 2017, 
+  and 2019-2020 in SSA helped push millions of people into food insecurity 
+  with the impacted populations ranging from 13 to 26 million due to each 
+  of these events. Prediction of climate-driven drought, therefore, is 
+  needed to mitigate food insecurity impacts. Here we describe several 
+  ongoing activities and advancements that are providing multi-stage drought 
+  predictions, issued at different stages of a crop growing season. 
+  Multi-stage drought prediction is conducted by (i) leveraging 
+  long-term seasonal climate forecasts (6 months or longer in future) 
+  to sub-seasonal (3-4 weeks in future) to short-term weather forecasts 
+  (2 weeks in future) and (ii) combining observations of climate and/or 
+  simulated hydrologic conditions in the recent past with climate 
+  forecasts. Application of climate forecasts at multiple 
+  scales (seasonal to weather) allows for early drought 
+  prediction for the season as a whole and for routine 
+  tracking of the evolution of the season at weather to 
+  subseasonal scales (e.g., focus on consecutive dry days, 
+  dry and wet spells) during the critical points in the season. 
+  Integration of near real-time observations with forecasts greatly 
+  enhances detection capabilities by leveraging the skill that is 
+  derived from the past observations or initial hydrologic conditions, 
+  and for providing precise and finer scale drought prediction as the 
+  season progresses, to better support decisions to mitigate the 
+  impacts of food insecurity.'
 )
 
 joris = list(
