@@ -106,7 +106,7 @@ Lentz = list(
 
 Shukla = list(
   author = 'Shraddhanand Shukla, UC Santa Barbara',
-  title = 'TBD',
+  title = 'Multi-stage and multi-scale drought prediction to support food insecurity early warning',
   abstract = 'Food insecurity is on the rise globally. In 2020, according to 
   the United States Agency of International Development (USAID)-funded 
   Famine Early Warning Systems Network (FEWS NET), up to 113 million 
@@ -183,10 +183,10 @@ session_5 = list(
   time = "11:35 - 13:15 (UTC)",
   date = "Fri, June 25",
   talks = list(
-    "11:35 (UTC)" = joris,
-    "12:00 (UTC)" = Shukla,
-    "12:25 (UTC)" = Lentz,
-    "12:50 (UTC)" = Odubela
+    "11:35 (UTC)" = Lentz,
+    "12:00 (UTC)" = joris,
+    "12:25 (UTC)" = Odubela,
+    "12:50 (UTC)" = Shukla
   )
 )
 
