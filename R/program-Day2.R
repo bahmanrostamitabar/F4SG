@@ -63,7 +63,7 @@ keynote_4 = list(
 html_session(keynote_4, id="key4")
 
 #-------------------------------------------------------#
-# Session 5
+# Session 4
 #-------------------------------------------------------#
 
 Odubela = list(
@@ -177,7 +177,7 @@ joris = list(
 ) 
 
 
-session_5 = list(
+session_4 = list(
   title = "Session #5: Predictive modelling for food security", 
   chair = "Chair: Marc van den Homberg",
   time = "11:35 - 13:15 (UTC)",
@@ -190,7 +190,7 @@ session_5 = list(
   )
 )
 
-html_session(session_5, id="session5")
+html_session(session_4, id="session4")
 
 
 #-------------------------------------------------------#
@@ -209,7 +209,7 @@ print(htmltools::br())
 
 
 #-------------------------------------------------------#
-# Session 6
+# Session 5
 #-------------------------------------------------------#
 
 Litsiou1 = list(
@@ -275,7 +275,7 @@ Alroomi = list(
 )
 
 
-session_6 = list(
+session_5 = list(
   title = "Session #6: Mega Projects", 
   chair = "Chair: Konstantinos Nikolopoulos",
   time = "13:25 - 14:40 (UTC)",
@@ -287,7 +287,7 @@ session_6 = list(
   )
 )
 
-html_session(session_6, id="session6")
+html_session(session_5, id="session5")
 
 
 #-------------------------------------------------------#
@@ -340,7 +340,7 @@ html_session(keynote_5, id="key5")
 
 
 #-------------------------------------------------------#
-# Session 7
+# Session 6
 #-------------------------------------------------------#
 Lowe = list(
   author = 'Rachel Lowe, London School of Hygiene and Tropical Medicine',
@@ -430,7 +430,7 @@ Wang= list(
   of disease spreading and improving forecasting accuracy.'
 )
 
-session_7 = list(
+session_6 = list(
   title = "Session #7: Forecasting infectious diseases: Zika, dengue and COVID-19", 
   chair = "Chair: Johannes Bracher",
   time = "15:55 - 17:35 (UTC)",
@@ -443,7 +443,7 @@ session_7 = list(
   )
 )
 
-html_session(session_7, id="session7")
+html_session(session_6, id="session6")
 
 
 
