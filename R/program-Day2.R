@@ -178,7 +178,7 @@ joris = list(
 
 
 session_4 = list(
-  title = "Session #5: Predictive modelling for food security", 
+  title = "Session #4: Predictive modelling for food security", 
   chair = "Chair: Marc van den Homberg",
   time = "11:35 - 13:15 (UTC)",
   date = "Fri, June 25",
@@ -276,7 +276,7 @@ Alroomi = list(
 
 
 session_5 = list(
-  title = "Session #6: Mega Projects", 
+  title = "Session #5: Mega Projects", 
   chair = "Chair: Konstantinos Nikolopoulos",
   time = "13:25 - 14:40 (UTC)",
   date = "Fri, June 25",
@@ -431,7 +431,7 @@ Wang= list(
 )
 
 session_6 = list(
-  title = "Session #7: Forecasting infectious diseases: Zika, dengue and COVID-19", 
+  title = "Session #6: Forecasting infectious diseases: Zika, dengue and COVID-19", 
   chair = "Chair: Johannes Bracher",
   time = "15:55 - 17:35 (UTC)",
   date = "Fri, June 25",
